@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  background-color: lightblue;
+  padding: 25px;
+  border: 5px solid blue;
+  margin: 5px;
+  display: flex;
+  height: 200px;
+}
+
+.one, .two, .three {
+  background-color: lightcyan;
+  border: 5px solid coral;
+  flex: 1;
+}
+
+.two {
+  display: flex;
+  padding: 10px;
+}
+
+.child-2 {
+  flex: 1;
+  border: 5px solid red;
+  background-color: pink
+}
+
+.main-container {
+  background-color: lightgreen;
+  border: 5px solid green;
+  padding: 20px;
+  margin: 15px;
+}
+
+.second-container {
+  background-color: plum;
+  border: 5px solid burlywood;
+  padding: 20px;
+  margin: 15px;
+}
+
+.three {
+  height: 150px;
+  width: 550px;
+}
+
+.four, five {
+  
+}
