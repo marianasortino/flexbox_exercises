@@ -8,9 +8,9 @@
   background-color: lightblue;
   padding: 25px;
   border: 5px solid blue;
-  margin: 5px;
+  margin-bottom: 10px;
   display: flex;
-  height: 200px;
+  height: 180px;
 }
 
 .one, .two, .three {
@@ -37,18 +37,63 @@
   margin: 15px;
 }
 
-.second-container {
-  background-color: plum;
-  border: 5px solid burlywood;
-  padding: 20px;
-  margin: 15px;
-}
 
-.three {
+.third-container {
+  background-color: lightblue;
+  padding: 25px;
+  border: 5px solid blue;
+  margin-top: 10px;
+  display: flex;
   height: 150px;
-  width: 550px;
 }
 
-.four, five {
-  
+.bottom-container-middle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item-middle-1 {
+  flex: 1;
+  gap: 10px;
+  background-color: lightgoldenrodyellow;
+  border: 5px solid red;
+  gap: 10px;
+}
+
+.bottom-container-right {
+  background-color:lightgoldenrodyellow;
+  border: 5px solid red;
+  padding: 20px;
+  flex: 1;
+}
+
+.container-2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  height: 300px;
+}
+
+.middle-container-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-right-1 {
+  flex: 1;
+  gap: 10px;
+  background-color: lightgoldenrodyellow;
+  border: 5px solid red;
+  gap: 10px;
+}
+
+.middle-item-left {
+  background-color:lightgoldenrodyellow;
+  border: 5px solid red;
+  padding: 20px;
+  flex: 1;
 }
